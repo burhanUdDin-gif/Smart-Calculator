@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Calculator</title>
+</head>
+<body>
+    
+    <section class="calculator-start">
+
+        <div class="screen-part">
+            <span class="label">Smart Calculator</span>
+            <div class="expression"></div>
+            <div class="result">0</div>
+        </div>
+
+        <div class="button-main-part">
+
+            <div class="first-row">
+                <button class="ac-button btn special" data-val="AC">AC</button>
+                <button class="braces-button btn special" data-val="( )">( )</button>
+                <button class="modulous-button btn special" data-val="%">%</button>
+                <button class="divide-button btn operator" data-val="/"><i class="fa-solid fa-divide"></i></button>
+            </div>
+
+            <div class="second-row">
+                <button class="digit-seven-button btn digit" data-val="7">7</button>
+                <button class="digit-eight-button btn digit" data-val="8">8</button>
+                <button class="digit-nine-button btn digit" data-val="9">9</button>
+                <button class="multiply-button btn operator" data-val="X"><i class="fa-solid fa-x"></i></button>
+            </div>
+
+            <div class="third-row">
+                <button class="digit-four-button btn digit" data-val="4">4</button>
+                <button class="digit-five-button btn digit" data-val="5">5</button>
+                <button class="digit-six-button btn digit" data-val="6">6</button>
+                <button class="minus-button btn operator" data-val="-"><i class="fa-solid fa-minus"></i></button>
+            </div>
+
+            <div class="fourth-row">
+                <button class="digit-one-button btn digit" data-val="1">1</button>
+                <button class="digit-two-button btn digit" data-val="2">2</button>
+                <button class="digit-three-button btn digit" data-val="3">3</button>
+                <button class="add-button btn operator" data-val="+"><i class="fa-solid fa-plus"></i></button>
+            </div>
+
+            <div class="fifth-row">
+                <button class="digit-zero-button btn digit" data-val="0">0</button>
+                <button class="decimal-button btn digit" data-val=".">.</button>
+                <button class="modulous-button-two btn special" data-val="%">%</button>
+                <button class="equal-button btn equal" data-val="="><i class="fa-solid fa-equals"></i></button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
